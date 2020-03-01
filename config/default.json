@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://ryan123:brad123@contactkeeper-vdc9g.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "iamnotgay"
+}
