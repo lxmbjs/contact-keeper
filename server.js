@@ -11,10 +11,6 @@ app.use(express.json({ extended: false }));
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server started on ${PORT}`));
 
-app.get('/', (req, res) =>
-  res.json({ msg: 'Welcome to the contact Keeper API' })
-);
-
 //Serve static assets in production
 if (process.env.NODE_ENV == 'production') {
   //Set static folder
